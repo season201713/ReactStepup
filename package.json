@@ -1,11 +1,9 @@
 {
-  "name": "complete-intro-to-react-v5",
+  "name": "setup",
   "version": "1.0.0",
-  "description": "the Complete Intro to React, v5",
+  "description": "",
   "main": "src/App.js",
   "dependencies": {
-    "@frontendmasters/pet": "^1.0.3",
-    "@reach/router": "^1.2.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
@@ -26,15 +24,11 @@
     "prettier": "^1.16.1"
   },
   "scripts": {
-    "clear-build-cache": "rm -rf .cache/ dist/",
     "dev": "parcel src/index.html",
-    "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Brian Holt <btholt+complete-intro-to-react@gmail.com>",
-  "license": "Apache-2.0",
   "browserslist": [
     "last 2 Chrome versions"
   ]
